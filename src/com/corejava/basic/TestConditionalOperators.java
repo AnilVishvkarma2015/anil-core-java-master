@@ -1,0 +1,28 @@
+package com.corejava.basic;
+
+/**
+ * Test Conditional Operators 
+ * 
+ * @version 1.0
+ * @since 16 Nov 2016
+ * @author Anil Vishvkarma
+ */
+
+public class TestConditionalOperators {
+
+	public static void main(String[] args) {
+
+		int value1 = 1;
+		int value2 = 2;
+
+		if (value1 == 1 && value2 == 2) //AND Operator
+		{
+			System.out.println("value1 is 1 AND value2 is 2");
+		}
+		if (value1 == 1 || value2 == 1) //OR Operator
+		{
+			System.out.println("value1 is 1 OR value2 is 1");
+		}
+
+	}
+}
